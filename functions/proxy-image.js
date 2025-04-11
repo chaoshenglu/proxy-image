@@ -1,4 +1,4 @@
-export async function onRequest(context) {
+async function onRequest(context) {
   const { request } = context;
   const { searchParams } = new URL(request.url);
   const imageUrl = searchParams.get('url');
