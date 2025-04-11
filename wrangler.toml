@@ -1,0 +1,11 @@
+name = "image-proxy"
+compatibility_date = "2023-12-01"
+
+[build]
+command = ""
+
+[site]
+bucket = "./public"  # 如果你有静态资源
+
+[build.upload]
+format = "directory"
